@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%; }
+
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem;
+  }
+
+.navbar-expand-md{
+  font-size: 1.5rem;
+}
+
+
+.container{
+display: flex;
+padding: 10px;
+justify-content: space-between;
+align-items:center ;
+flex-wrap: wrap;
+align-content: flex-start;
+}
+.row{
+    margin-top: 50px;
+}
+.featurette-heading {
+    font-weight:100;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 50px;
+}
+.text-muted{
+  font-size: 40px;
+}
+.lead{
+font-size: 20px;
+}
+.grid{
+    font-size: 20px;
+display: grid;
+grid-template-rows: 0px;
+margin-bottom: 60px;
+margin-top: 70px;
+}
+#float-end{
+      text-align: right;
+}
+
